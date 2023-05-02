@@ -14,7 +14,11 @@ const item2 = 'http://ru14gqrqf.hb-bkt.clouddn.com/item2.png'
 const item3 = 'http://ru14gqrqf.hb-bkt.clouddn.com/item3.png'
 const item4 = 'http://ru14gqrqf.hb-bkt.clouddn.com/item4.png'
 const item5 = 'http://ru14gqrqf.hb-bkt.clouddn.com/item5.png'
+const bigItem1 = 'http://ru14gqrqf.hb-bkt.clouddn.com/bigItem1.png'
+const bigItem2 = 'http://ru14gqrqf.hb-bkt.clouddn.com/bigItem2.png'
 const bigItem3 = 'http://ru14gqrqf.hb-bkt.clouddn.com/bigItem3.png'
+const bigItem4 = 'http://ru14gqrqf.hb-bkt.clouddn.com/bigItem4.png'
+const bigItem5 = 'http://ru14gqrqf.hb-bkt.clouddn.com/bigItem5.png'
 const box2 = 'http://ru14gqrqf.hb-bkt.clouddn.com/box2.png'
 const btnLine =  'http://ru14gqrqf.hb-bkt.clouddn.com/btnLine.png'
 const post = 'http://ru14gqrqf.hb-bkt.clouddn.com/post.png'
@@ -118,19 +122,19 @@ export default function Home() {
                         </div>
                         <div className='item-list'>
                             <div className='box item-list-item1' style={{transform: `translateX(-${slide1}%)`}} >
-                                <img src={item1} alt="" />
+                                <img src={bigItem1} alt="" />
                             </div>
                             <div className='box item-list-item2' style={{transform: `translateX(-${slide1}%)`}} >
-                                <img src={item2} alt="" />
+                                <img src={bigItem2} alt="" />
                             </div>
                             <div className='box item-list-item3' style={{transform: `translateX(-${slide1}%)`}} >
                                 <img src={bigItem3} alt="" />
                             </div>
                             <div className='box item-list-item4' style={{transform: `translateX(-${slide1}%)`}} >
-                                <img src={item4} alt="" />
+                                <img src={bigItem4} alt="" />
                             </div>
                             <div className='box item-list-item5' style={{transform: `translateX(-${slide1}%)`}} >
-                                <img src={item5} alt="" />
+                                <img src={bigItem5} alt="" />
                             </div>
                         </div>
                         <div className='control-box'>
