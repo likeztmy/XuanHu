@@ -30,6 +30,15 @@
                 width: 100%;
             }
         }
+        .header-QRCode {
+            top: 66%;
+            left: 10%;
+            width: 8%;
+            position: absolute;
+            img {
+                width: 100%;
+            }
+        }
         .header-QRBox {
             top: 55%;
             left: 4%;
@@ -38,6 +47,13 @@
             img {
                 width: 100%;
             }
+        }
+        .header-downloadTip {
+            bottom: 16.5%;
+            left: 10%;
+            position: absolute;
+            font-size: 12px;
+            color: #fff;
         }
         .header-downloadSentence {
             top: 69%;
@@ -84,8 +100,8 @@
             position: absolute;
             top: 5%;
             .reference-box {
-                margin-left: 20%;
-                margin-top: 8%;
+                margin-left: 13%;
+                margin-top: 10%;
                 width: 20%;
                 img {
                     max-width: 100%;
@@ -99,16 +115,74 @@
                     max-width: 100%;
                 }
             }
+            .active-item-text {
+                position: absolute;
+                top: 30%;
+                left: 15%;
+                max-width: 25%;
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                color: #fff;
+                font-size: 14px;
+                font-family: 'SimSun';
+                .active-item-name {
+                    font-size: 20px;
+                }
+                .text-box {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+                    .text-title {
+                        font-size: 20px;
+                    }
+                }
+            }
             .carousel-box {
                 position: absolute;
                 top: 5%;
-                left: 35%;
-                width: 55%;
+                left: 40%;
+                width: 55vw;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 .box1 {
-                    width: 65%;
+                    display: flex;
+                    position: relative;
+                    width: 32vw;
+                    .control-box {
+                        height: 100%;
+                        width: 32vw;
+                        .box {
+                            position: absolute;
+                            width: 5.5vw;
+                            cursor: pointer;
+                            z-index: 999;
+                            img {
+                                max-width: 100%;
+                            }
+                        }
+                        .control-box-item1 {
+                            top: -1%;
+                            left: 44%;
+                        }
+                        .control-box-item2 {
+                            top: 15%;
+                            left: 69%;
+                        }
+                        .control-box-item3 {
+                            top: 40%;
+                            left: 78%;
+                        }
+                        .control-box-item4 {
+                            top: 70%;
+                            left: 64%;
+                        }
+                        .control-box-item5 {
+                            top: 85%;
+                            left: 32%;
+                        }
+                    }
                     img {
                         max-width: 100%;
                     }
@@ -121,12 +195,11 @@
                     }
                 }
                 .item-list {
-                    width: 62%;
+                    width: 60%;
                     height: 67%;
                     position: absolute;
                     left: 7%;
                     overflow: hidden;
-                    // background-color: palevioletred;
                     display: flex;
                     flex-direction: row;
                     .box {
@@ -157,40 +230,6 @@
                     }
                     .item-list-item5 {
                         margin-top: 10%;
-                    }
-                }
-                .control-box {
-                    border: 1px solid black;
-                    .box {
-                        position: absolute;
-                        width: 12%;
-                        height: 12%;
-                        margin-top: 2vh;
-                        cursor: pointer;
-                        z-index: 1;
-                        img {
-                            max-width: 100%;
-                        }
-                    }
-                    .control-box-item1 {
-                        top: -4%;
-                        left: 56.5%;
-                    }
-                    .control-box-item2 {
-                        top: 12.5%;
-                        left: 72%;
-                    }
-                    .control-box-item3 {
-                        top: 37%;
-                        left: 76%;
-                    }
-                    .control-box-item4 {
-                        top: 67%;
-                        left: 68%;
-                    }
-                    .control-box-item5 {
-                        top: 82%;
-                        left: 50%;
                     }
                 }
             }
@@ -347,7 +386,7 @@
             width: 100%;
             .aboutLink {
                 width: 90%;
-                margin-left: 4%;
+                margin-left: 6%;
                 img {
                     max-width: 100%;
                 }
@@ -382,14 +421,25 @@
             }
         }
     }
-    .downloadBottom {
-        position: fixed;
-        width: 20%;
-        bottom: 0;
-        left: 2%;
-        z-index: 999;
-        img {
-            max-width: 100%;
+    .download-box {
+        display: flex;
+        position: relative;
+        margin-top: -22%;
+        z-index: 998;
+        .downloadBottom {
+            width: 20%;
+            img {
+                max-width: 100%;
+            }
+        }
+        .QRCodeBottom {
+            width: 6.5%;
+            margin-top: 3.5%;
+            margin-left: -9%;
+            margin-bottom: 10%;
+            img {
+                max-width: 100%;
+            }
         }
     }
 }
