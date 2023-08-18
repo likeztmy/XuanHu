@@ -1,36 +1,40 @@
-const background = 'http://ru14gqrqf.hb-bkt.clouddn.com/%E8%83%8C%E6%99%AF%E5%BA%95%E5%9B%BE.png'
-const header = 'http://ru14gqrqf.hb-bkt.clouddn.com/headerRole.png'
-const headerbottom = 'http://ru14gqrqf.hb-bkt.clouddn.com/headerbottom.png'
-const gameName = 'http://ru14gqrqf.hb-bkt.clouddn.com/gameName.png'
-const sentence1 = 'http://ru14gqrqf.hb-bkt.clouddn.com/sentence1.png'
-const QRBox = 'http://ru14gqrqf.hb-bkt.clouddn.com/QRBox.png'
-const downloadIcon = 'http://ru14gqrqf.hb-bkt.clouddn.com/downloadIcon.png'
-const reference = 'http://ru14gqrqf.hb-bkt.clouddn.com/reference.png'
-const box1 = 'http://ru14gqrqf.hb-bkt.clouddn.com/box1.png'
-const circle1 = 'http://ru14gqrqf.hb-bkt.clouddn.com/circle1.png'
-const item1 = 'http://ru14gqrqf.hb-bkt.clouddn.com/item1.png'
-const item2 = 'http://ru14gqrqf.hb-bkt.clouddn.com/item2.png'
-const item3 = 'http://ru14gqrqf.hb-bkt.clouddn.com/item3.png'
-const item4 = 'http://ru14gqrqf.hb-bkt.clouddn.com/item4.png'
-const item5 = 'http://ru14gqrqf.hb-bkt.clouddn.com/item5.png'
-const bigItem1 = 'http://ru14gqrqf.hb-bkt.clouddn.com/bigItem1.png'
-const bigItem2 = 'http://ru14gqrqf.hb-bkt.clouddn.com/bigItem2.png'
-const bigItem3 = 'http://ru14gqrqf.hb-bkt.clouddn.com/bigItem3.png'
-const bigItem4 = 'http://ru14gqrqf.hb-bkt.clouddn.com/bigItem4.png'
-const bigItem5 = 'http://ru14gqrqf.hb-bkt.clouddn.com/bigItem5.png'
-const box2 = 'http://ru14gqrqf.hb-bkt.clouddn.com/box2.png'
-const btnLine = 'http://ru14gqrqf.hb-bkt.clouddn.com/btnLine.png'
-const post = 'http://ru14gqrqf.hb-bkt.clouddn.com/post.png'
-const postTitle = 'http://ru14gqrqf.hb-bkt.clouddn.com/postTitle.png'
-const postTitleBg = 'http://ru14gqrqf.hb-bkt.clouddn.com/postTitleBg.png'
-const box3 = 'http://ru14gqrqf.hb-bkt.clouddn.com/box3.png'
-const leftBtn = 'http://ru14gqrqf.hb-bkt.clouddn.com/leftBtn.png'
-const rightBtn = 'http://ru14gqrqf.hb-bkt.clouddn.com/rightBtn.png'
-const introImg1 = 'http://ru14gqrqf.hb-bkt.clouddn.com/introImg.png'
-const aboutLink = 'http://ru14gqrqf.hb-bkt.clouddn.com/aboutLink.png'
-const downloadBottom = 'http://ru14gqrqf.hb-bkt.clouddn.com/downloadBottom.png'
-const QRCode = 'http://ru14gqrqf.hb-bkt.clouddn.com/QRCode.png'
-
+const background = 'http://xuanhu.likeztmy.xyz/%E8%83%8C%E6%99%AF%E5%BA%95%E5%9B%BE.png'
+const header = 'http://xuanhu.likeztmy.xyz/headerRole.png'
+const headerbottom = 'http://xuanhu.likeztmy.xyz/headerbottom.png'
+const gameName = 'http://xuanhu.likeztmy.xyz/gameName.png'
+const sentence1 = 'http://xuanhu.likeztmy.xyz/sentence1.png'
+const QRBox = 'http://xuanhu.likeztmy.xyz/QRBox.png'
+const downloadIcon = 'http://xuanhu.likeztmy.xyz/downloadIcon.png'
+const reference = 'http://xuanhu.likeztmy.xyz/reference.png'
+const box1 = 'http://xuanhu.likeztmy.xyz/box1.png'
+const circle1 = 'http://xuanhu.likeztmy.xyz/circle1.png'
+const item1 = 'http://xuanhu.likeztmy.xyz/item1.png'
+const item2 = 'http://xuanhu.likeztmy.xyz/item2.png'
+const item3 = 'http://xuanhu.likeztmy.xyz/item3.png'
+const item4 = 'http://xuanhu.likeztmy.xyz/item4.png'
+const item5 = 'http://xuanhu.likeztmy.xyz/item5.png'
+const bigItem1 = 'http://xuanhu.likeztmy.xyz/bigItem1.png'
+const bigItem2 = 'http://xuanhu.likeztmy.xyz/bigItem2.png'
+const bigItem3 = 'http://xuanhu.likeztmy.xyz/bigItem3.png'
+const bigItem4 = 'http://xuanhu.likeztmy.xyz/bigItem4.png'
+const bigItem5 = 'http://xuanhu.likeztmy.xyz/bigItem5.png'
+const box2 = 'http://xuanhu.likeztmy.xyz/box2.png'
+const btnLine = 'http://xuanhu.likeztmy.xyz/btnLine.png'
+const post = 'http://xuanhu.likeztmy.xyz/post.png'
+const part2Post1 = 'http://xuanhu.likeztmy.xyz/part2Img1.jpg'
+const part2Post2 = 'http://xuanhu.likeztmy.xyz/part2Img2.jpg'
+const part2Post3 = 'http://xuanhu.likeztmy.xyz/part2Img3.jpg'
+const part3Post1 = 'http://xuanhu.likeztmy.xyz/part3Img1.jpg'
+const part3Post2 = 'http://xuanhu.likeztmy.xyz/part3Img2.jpg'
+const postTitle = 'http://xuanhu.likeztmy.xyz/postTitle.png'
+const postTitleBg = 'http://xuanhu.likeztmy.xyz/postTitleBg.png'
+const box3 = 'http://xuanhu.likeztmy.xyz/box3.png'
+const leftBtn  = 'http://xuanhu.likeztmy.xyz/leftBtn.png'
+const rightBtn = 'http://xuanhu.likeztmy.xyz/rightBtn.png'
+const introImg1 = 'http://xuanhu.likeztmy.xyz/introImg.png'
+const aboutLink = 'http://xuanhu.likeztmy.xyz/aboutLink.png'
+const downloadBottom = 'http://xuanhu.likeztmy.xyz/downloadBottom.png'
+const QRCode = 'http://xuanhu.likeztmy.xyz/QRCode.png'
 import './index.less'
 import { useEffect, useState } from 'react'
 
@@ -162,9 +166,6 @@ export default function Home() {
                         <div className='reference-box'>
                             <img src={reference} alt="" />
                         </div>
-                        {/* <div className='rensen-box'>
-                            <img src={rensen} alt="" />
-                        </div> */}
                         <div className='active-item-text'>
                             <div className='active-item-name'>{`药材：${texts[slide1 / 100][0]}`}</div>
                             <div className='text-box'>
@@ -234,41 +235,17 @@ export default function Home() {
                             <div className="carousel-box-content">
                                 <div className='item item1' style={{ transform: `translateX(-${slide2}%)` }} >
                                     <div className='item-post'>
-                                        <img src={post} alt="" />
-                                    </div>
-                                    <div className='item-content'>
-                                        <div className='item-content-titleBg'>
-                                            <img src={postTitleBg} alt="" />
-                                        </div>
-                                        <div className='item-content-title'>
-                                            <img src={postTitle} alt="" />
-                                        </div>
+                                        <img src={part2Post1} alt="" />
                                     </div>
                                 </div>
                                 <div className='item item2' style={{ transform: `translateX(-${slide2}%)` }} >
                                     <div className='item-post'>
-                                        <img src={post} alt="" />
-                                    </div>
-                                    <div className='item-content'>
-                                        <div className='item-content-titleBg'>
-                                            <img src={postTitleBg} alt="" />
-                                        </div>
-                                        <div className='item-content-title'>
-                                            <img src={postTitle} alt="" />
-                                        </div>
+                                        <img src={part2Post2} alt="" />
                                     </div>
                                 </div>
                                 <div className='item item3' style={{ transform: `translateX(-${slide2}%)` }} >
                                     <div className='item-post'>
-                                        <img src={post} alt="" />
-                                    </div>
-                                    <div className='item-content'>
-                                        <div className='item-content-titleBg'>
-                                            <img src={postTitleBg} alt="" />
-                                        </div>
-                                        <div className='item-content-title'>
-                                            <img src={postTitle} alt="" />
-                                        </div>
+                                        <img src={part2Post3} alt="" />
                                     </div>
                                 </div>
                                 <div className='item item4' style={{ transform: `translateX(-${slide2}%)` }} >
@@ -320,10 +297,10 @@ export default function Home() {
                             </div>
                             <div className='carousel-box-content'>
                                 <div className='item item1' style={{ transform: `translateX(-${slide3}%)` }}>
-                                    <img src={introImg1} alt="" />
+                                    <img src={part3Post1} alt="" />
                                 </div>
                                 <div className='item item2' style={{ transform: `translateX(-${slide3}%)` }}>
-                                    <img src={introImg1} alt="" />
+                                    <img src={part3Post2} alt="" />
                                 </div>
                                 <div className='item item3' style={{ transform: `translateX(-${slide3}%)` }}>
                                     <img src={introImg1} alt="" />
